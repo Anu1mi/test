@@ -44,8 +44,8 @@ public class CalculatorTest {
     
     // 故意添加一个失败的测试，用于后续缺陷管理演示
     @Test
-    @DisplayName("这是一个会失败的测试")
+    @DisplayName("测试已修复")
     public void testFailingTest() {
-        assertEquals(0, calculator.add(1, 1), "这个测试会失败，用于缺陷管理演示");
+        assertEquals(2, calculator.add(1, 1), "1 + 1 应该等于 2");
     }
 }
