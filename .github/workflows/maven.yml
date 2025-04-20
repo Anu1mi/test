@@ -22,9 +22,3 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Test with Maven
       run: mvn -B test --file pom.xml
-    - name: Archive test results
-      uses: actions/upload-artifact@v2
-      if: always()
-      with:
-        name: test-report
-        path: target/surefire-reports/
