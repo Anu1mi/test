@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.example.CalculatorTest
+com.example.CalculatorTest.testFailingTest  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 这个测试会失败，用于缺陷管理演示 ==> expected: <0> but was: <2>
+	at com.example.CalculatorTest.testFailingTest(CalculatorTest.java:49)
+
