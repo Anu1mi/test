@@ -23,7 +23,7 @@ jobs:
     - name: Test with Maven
       run: mvn -B test --file pom.xml
     - name: Archive test results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       if: always()
       with:
         name: test-report
